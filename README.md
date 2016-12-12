@@ -1,0 +1,2 @@
+# wumpus
+Hunt the Wumpus
