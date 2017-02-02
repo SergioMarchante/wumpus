@@ -456,8 +456,8 @@ public class Wumpus {
 				System.out.println("\nGiras en dirección "+mirada+"...");
 			}
 			
-			else if (eleccion.equals("a")) { // moves left
-//				
+			else if (eleccion.equals("a")) {
+				
 				if(mirada == "Norte") mirada = "Oeste";
 				else if(mirada == "Oeste") mirada = "Sur";
 				else if(mirada == "Sur") mirada = "Este";
