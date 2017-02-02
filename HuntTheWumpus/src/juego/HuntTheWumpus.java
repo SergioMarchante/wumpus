@@ -38,7 +38,7 @@ public class HuntTheWumpus {
 			}while(numColumnas < 4);
 		
 		
-			System.out.println("Introduce el número de pozos: (Recomendado según el tamaño del tablero): "+(((numFilas+numFilas)/2)-1));
+			System.out.println("Introduce el número de pozos: (Recomendado según el tamaño del tablero): "+(((numFilas+numColumnas)/2)-1));
 	        numPozos = tecladoInicio.nextInt();
 	    
 	  
