@@ -4,7 +4,6 @@ import java.util.Random;
 
 public class Wumpus {
 
-	
 	private int numFilas;
 	private int numColumnas;
 	private int numPozos;
@@ -30,7 +29,6 @@ public class Wumpus {
 		this.numFlechas = numFlechas;
 		
 		
-		
 		tablero = new Celda[numFilas][numColumnas];
 		Random random = new Random();
 			
@@ -41,7 +39,7 @@ public class Wumpus {
 		}
 		
 		
-		//ColocarWumpus
+		//Colocar Wumpus
 
 		int wumpusFila = random.nextInt(numFilas);
 		int wumpusColumna = random.nextInt(numColumnas);
@@ -357,9 +355,6 @@ public class Wumpus {
 			}
 		}
 
-		
-		
-		
 		
 		public void mostrarMenu() {
 					

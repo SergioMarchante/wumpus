@@ -97,7 +97,7 @@ public class HuntTheWumpus {
 				nuevoJuego.mostrarMapa();
 				
 				if (nuevoJuego.getGanaste()) {
-					System.out.println("\nEscapaste con el Oro!!!!\nHas ganado!!!\n");
+					System.out.println("\nEscapaste con el ORO!!!!\nHas ganado!!!\n");
 					System.out.println(nuevoJuego.mostrarMapa());
 				} 
 					else {
@@ -105,7 +105,7 @@ public class HuntTheWumpus {
 					System.out.println(nuevoJuego.mostrarMapa());
 				}
 			
-				System.out.println("Pulsa N para jugar de nuevo o Q para salir del juego...  ");
+				System.out.println("Pulsa N para jugar de nuevo o Q para salir del juego");
 				eleccion = teclado.nextLine().toLowerCase();
 			}
 
@@ -115,5 +115,4 @@ public class HuntTheWumpus {
 		
 	} //fin de main
 		
-	
 }//fin de clase
